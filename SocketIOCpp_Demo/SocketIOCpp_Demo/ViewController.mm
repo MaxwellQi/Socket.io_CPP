@@ -7,10 +7,7 @@
 //
 
 #import "ViewController.h"
-#include <SocketIO-Client-CPP/sio_client.h>
 #import "SocketIOOperation.h"
-using namespace std;
-#include <string.h>
 @interface ViewController ()
 
 @property(nonatomic) SocketIOOperation *socketOperation;
